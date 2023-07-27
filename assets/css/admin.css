@@ -1,0 +1,74 @@
+.admin__form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.admin__container {
+  display: flex;
+  background: var(--branco-input);
+  margin: 0 -8rem;
+  padding: 5.75rem 0;
+}
+.admin__title {
+  color: var(--cinza-titulo);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.54rem;
+}
+.admin__label {
+  color: var(--placeholder);
+  margin-bottom: -1.8rem;
+  margin-left: 0.75rem;
+  z-index: 1;
+}
+.admin__input {
+  color: var(--cinza-titulo);
+  font-size: 1rem;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  width: 26.4375rem;
+  height: 1.94544rem;
+  padding: 2rem 0.75rem 0.5rem 0.75rem;
+  border: 0;
+  border-bottom: 1px solid var(--linha-input);
+  outline: 0;
+  margin-bottom: 1.54rem;
+}
+.admin__input:focus {
+  border-bottom: 2px solid var(--azul-claro);
+}
+.admin__input::placeholder {
+  color: var(--linha-input);
+}
+.admin__button {
+  width: 100%;
+  height: 3.94544rem;
+  font-size: 1rem;
+  background-color: var(--azul-claro);
+  color: var(--branco);
+  border: 0;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+  .admin__input {
+    width: 704px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .admin__button {
+    width: 100%;
+    height: 2.94544rem;
+  }
+  .admin__input {
+    width: 310px;
+  }
+}

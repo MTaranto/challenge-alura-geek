@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/normalize.css">
+  <link rel="stylesheet" href="../assets/css/reset.css  ">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/cabecalho.css">
+  <link rel="stylesheet" href="../assets/css/login.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <div class="cabecalho__logo">
+        <img class="cabecalho__logo-img1" src="../assets/images/joystick-logo.png" alt="Imagem joystick">
+        <img class="cabecalho__logo-img2" src="../assets/images/logo.png" alt="Logo da Alura Geek">
+      </div>
+      <div class="cabecalho__pesquisa mobile">
+        <input class="cabecalho__pesquisa-input mobile" type="text" placeholder="O que você deseja encontrar?">
+        <img  class="cabecalho__pesquisa-lupa mobile" src="../assets/images/lupa.png" alt="Imagem de lupa">
+      </div>
+    </header>
+    <section class="login__container">
+      <h1 class="login__title">Iniciar Sessão</h1>
+      <input class="login__input" type="text" placeholder="Escreva seu e-mail">
+      <input class="login__input" type="text" placeholder="Escreva sua senha">
+      <a href="../index.html"><button class="login__button" type="submit">Entrar</button></a>
+    </section>
+    <section class="footer">
+      <div class="footer__logo box1">
+        <img class="cabecalho__logo-img" src="../assets/images/joystick-logo.png" alt="Imagem joystick">
+        <img class="cabecalho__logo-img" src="../assets/images/logo.png" alt="Logo da Alura Geek">
+      </div>
+      <div class="footer__links">
+        <nav>
+          <ul class="footer__links-lista box2">
+            <a href="#" class="footer__links-item">Quem somos nós</a>
+            <a href="#" class="footer__links-item">Política de privacidade</a>
+            <a href="#" class="footer__links-item">Programa fidelidade</a>
+            <a href="#" class="footer__links-item">Nossas lojas</a>
+            <a href="#" class="footer__links-item">Quero ser franqueado</a>
+            <a href="#" class="footer__links-item">Anuncie aqui</a>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__contato box3">
+        <h3 class="footer__contato-title">Fale conosco</h3>
+          <label class="footer__contato-label" for="nome">Nome</label>
+          <input class="footer__contato-input" type="text" id="nome" name="nome" placeholder="Insira seu nome completo" minlength="3"/>
+          <textarea
+          class="footer__contato-mensagem" placeholder="Escreva a sua mensagem" minlength="3"></textarea>
+          <button class="footer__contato-button" type="submit">Enviar mensagem</button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__rodape">
+        <p>Desenvolvido por Márcio Taranto</p>
+        <p class="footer__rodape-ano">2023</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
