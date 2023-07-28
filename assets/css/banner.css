@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .banner {
     width: auto;
   }
@@ -40,14 +40,17 @@
   }
 }
 
-@media (max-width: 425px) {
-
+@media screen and (max-width: 384px) {
+  body {
+    max-width: 384px;
+  }
   .banner {
     background-size: cover;
     width: auto;
     height: 205px;
   }
   .banner__title {
+    width: max-content;
     padding-top: 78px;
     padding-left: 16px;
     font-size: 22px;
@@ -63,6 +66,4 @@
     height: 40px;
     font-size: 14px;
   }
-
-
 }

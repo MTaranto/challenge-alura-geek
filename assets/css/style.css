@@ -1,6 +1,6 @@
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width:5px;
-}
+}*/
 :root {
   --branco: #ffffff;
   --azul-claro: #2a7ae4;
@@ -16,6 +16,9 @@ a {
 .container {
   margin: 0 8rem;
 }
+footer {
+  max-width: 360px;
+}
 .footer__rodape {
   text-align: center;
 }
@@ -23,17 +26,21 @@ a {
   margin-top: -0.75rem;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
   .container {
     margin: 0;
-    max-width: 768px;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 384px) {
 
+  body {
+    max-width: 384px;
+  }
   .container {
     margin: 0;
-    max-width: 425px;
   }
 }

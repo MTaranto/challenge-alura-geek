@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .login__container {
     max-width: 768px;
     margin: 0;
@@ -49,19 +49,4 @@
     width: 120px;
     height: 50px;
   }
-}
-
-@media (max-width: 425px) {
-
-  .mobile {
-    display: block;
-  }
-  .login__input {
-    width: 275px;
-  }
-  .login__button {
-    width: 120px;
-    height: 50px;
-  }
-
 }

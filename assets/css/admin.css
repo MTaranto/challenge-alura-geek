@@ -55,14 +55,14 @@
   padding: 1rem;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .admin__input {
     width: 704px;
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 384px) {
 
   .admin__button {
     width: 100%;
